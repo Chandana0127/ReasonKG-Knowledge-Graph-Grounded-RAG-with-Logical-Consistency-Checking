@@ -127,22 +127,16 @@ Detailed breakdowns by query difficulty and by company are produced in `figures/
 
 ```
 reasonkg/
-├── README.md                     ← this file
-├── notebooks/
-│   └── ReasonKG_Final.ipynb      ← end-to-end pipeline (Colab-ready)
-├── data/
-│   ├── sec_bulk/                 ← downloaded 10-K filings (not committed)
-│   ├── pageindex_doc_map.json    ← {ticker_accession: pageindex_doc_id}
-│   └── faiss_index/              ← built FAISS index + chunk store
-├── figures/
-│   ├── fig1_hallucination_rate.png
-│   ├── fig2_by_difficulty.png
-│   ├── fig3_by_company.png
-│   ├── fig4_heatmap.png
-│   └── fig5_dashboard.png
-└── results/
-    ├── eval_results_final.csv    ← per-query, per-system raw results
-    └── eval_summary_final.csv    ← aggregated metrics
+├── README.md                 ← this file
+├── ReasonKG_Final.ipynb      ← end-to-end pipeline (Colab-ready)
+├── pageindex_doc_map.json    ← {ticker_accession: pageindex_doc_id}
+├── fig1_hallucination_rate.png
+├── fig2_by_difficulty.png
+├── fig3_by_company.png
+├── fig4_heatmap.png
+├── fig5_dashboard.png
+├── eval_results_final.csv    ← per-query, per-system raw results
+├── eval_summary_final.csv    ← aggregated metrics
 ```
 
 > The notebook is the single source of truth for the pipeline. If you want to split it into a Python package (`src/ingest/`, `src/retrieval/`, `src/consistency/`, `src/eval/`), each block in the notebook maps cleanly to one module — see [Pipeline Stages](#pipeline-stages) below.
