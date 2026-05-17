@@ -1,0 +1,4 @@
+system,hallucination_rate,verification_rate,n_claims,hallucination_pct,verification_pct
+Vanilla RAG,0.15,0.95,1.05,15.0,95.0
+KG+PageIndex RAG,0.025,0.85,0.95,2.5,85.0
+ReasonKG,0.0,0.8,0.85,0.0,80.0

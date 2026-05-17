@@ -1,0 +1,99 @@
+system,query,ticker,year,difficulty,answer,retrieval,n_claims,hallucination_rate,verification_rate,verdict_summary
+Vanilla RAG,What was Apple's total revenue in fiscal year 2024?,AAPL,2024,simple,"Apple's total revenue in fiscal year 2024 was $391,035 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Apple's total revenue in fiscal year 2024?,AAPL,2024,simple,"Apple's total revenue in fiscal year 2024 was $391,035 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Apple's total revenue in fiscal year 2024?,AAPL,2024,simple,"Apple's total revenue in fiscal year 2024 was $391,035 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Apple's net income in fiscal year 2024?,AAPL,2024,simple,"The net income for Apple in fiscal year 2024 can be calculated using the provision for income taxes and effective tax rate. The provision for income taxes in 2024 was $29,749 million, with an effective tax rate of 24.1%. Using the formula:
+
+Net Income = (Provision for Income Taxes / Effective Tax Rate) - Provision for Income Taxes
+
+Net Income = ($29,749 million / 0.241) - $29,749 million = $123,541 million - $29,749 million = $93,792 million.
+
+Therefore, Apple's net income for fiscal year 2024 was approximately $93,792 million.",faiss_global,1,1.0,1.0,"{'VERIFIED': 0, 'HALLUCINATED': 1, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Apple's net income in fiscal year 2024?,AAPL,2024,simple,"Apple's net income in fiscal year 2024 was $93,736 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Apple's net income in fiscal year 2024?,AAPL,2024,simple,"Apple's net income in fiscal year 2024 was $93,736 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Apple's gross profit in fiscal year 2024?,AAPL,2024,simple,"Apple's gross profit in fiscal year 2024 was $180,683 million. This is calculated by using the given total gross margin figure.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Apple's gross profit in fiscal year 2024?,AAPL,2024,simple,"Apple's gross profit in fiscal year 2024 was $180,683 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Apple's gross profit in fiscal year 2024?,AAPL,2024,simple,"Apple's gross profit in fiscal year 2024 was $180,683 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Apple's operating income in fiscal year 2024?,AAPL,2024,simple,"Apple's operating income in fiscal year 2024 was $123,216 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Apple's operating income in fiscal year 2024?,AAPL,2024,simple,"Apple's operating income in fiscal year 2024 was $123,216 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Apple's operating income in fiscal year 2024?,AAPL,2024,simple,"Apple's operating income in fiscal year 2024 was $123,216 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Apple's total revenue in fiscal year 2022?,AAPL,2022,medium,"Apple's total revenue in fiscal year 2022 was $394,328 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Apple's total revenue in fiscal year 2022?,AAPL,2022,medium,The context does not provide information on Apple's total revenue for fiscal year 2022.,pageindex,0,0.0,0.0,"{'VERIFIED': 0, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Apple's total revenue in fiscal year 2022?,AAPL,2022,medium,"The provided context does not include data for fiscal year 2022, only for 2023, 2024, and 2025. Therefore, Apple's total revenue for fiscal year 2022 is not available in the given information.",pageindex,0,0.0,0.0,"{'VERIFIED': 0, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Apple's net income in fiscal year 2023?,AAPL,2023,medium,"Apple's net income in fiscal year 2023 was $96,995 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Apple's net income in fiscal year 2023?,AAPL,2023,medium,"Apple's net income in fiscal year 2023 was $96,995 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Apple's net income in fiscal year 2023?,AAPL,2023,medium,"Apple's net income in fiscal year 2023 was $96,995 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Apple's gross profit in fiscal year 2023?,AAPL,2023,medium,"Apple's gross profit in fiscal year 2023 was $169,148 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Apple's gross profit in fiscal year 2023?,AAPL,2023,medium,"Apple's gross profit in fiscal year 2023 was $169,148 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Apple's gross profit in fiscal year 2023?,AAPL,2023,medium,"Apple's gross profit in fiscal year 2023 was $169,148 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Microsoft's total revenue in fiscal year 2024?,MSFT,2024,simple,"$245,122 million.",faiss_global,0,0.0,0.0,"{'VERIFIED': 0, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Microsoft's total revenue in fiscal year 2024?,MSFT,2024,simple,The provided context does not include specific information about Microsoft's total revenue in fiscal year 2024.,pageindex,0,0.0,0.0,"{'VERIFIED': 0, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Microsoft's total revenue in fiscal year 2024?,MSFT,2024,simple,The context provided does not specify Microsoft's total revenue for fiscal year 2024.,pageindex,0,0.0,0.0,"{'VERIFIED': 0, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Microsoft's net income in fiscal year 2024?,MSFT,2024,simple,"Microsoft's net income in fiscal year 2024 was $88,136 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Microsoft's net income in fiscal year 2024?,MSFT,2024,simple,"Microsoft's net income in fiscal year 2024 was $88,136 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Microsoft's net income in fiscal year 2024?,MSFT,2024,simple,"Microsoft's net income in fiscal year 2024 was $88,136 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Microsoft's gross profit in fiscal year 2024?,MSFT,2024,simple,"Microsoft's gross profit in fiscal year 2024 was $171,008 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Microsoft's gross profit in fiscal year 2024?,MSFT,2024,simple,"Microsoft's gross profit in fiscal year 2024 was $171,008 million. This is calculated as total revenue ($245,122 million) minus total cost of revenue ($74,114 million).",pageindex,2,0.0,1.0,"{'VERIFIED': 2, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Microsoft's gross profit in fiscal year 2024?,MSFT,2024,simple,"Microsoft's gross profit in fiscal year 2024 was $171,008 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Microsoft's operating income in fiscal year 2024?,MSFT,2024,simple,Microsoft's operating income in fiscal year 2024 was $109.433 billion.,faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Microsoft's operating income in fiscal year 2024?,MSFT,2024,simple,"Microsoft's operating income in fiscal year 2024 was $109,433 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Microsoft's operating income in fiscal year 2024?,MSFT,2024,simple,"Microsoft's operating income in fiscal year 2024 was $109,433 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Microsoft's total revenue in fiscal year 2023?,MSFT,2023,medium,"Microsoft's total revenue in fiscal year 2023 was $245,122 million.",faiss_global,1,1.0,1.0,"{'VERIFIED': 0, 'HALLUCINATED': 1, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Microsoft's total revenue in fiscal year 2023?,MSFT,2023,medium,"Microsoft's total revenue in fiscal year 2023 was $211,915 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Microsoft's total revenue in fiscal year 2023?,MSFT,2023,medium,The context provided does not include specific revenue figures for Microsoft's fiscal year 2023. Please refer to the relevant financial statements or reports for this information.,pageindex,0,0.0,0.0,"{'VERIFIED': 0, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Microsoft's net income in fiscal year 2023?,MSFT,2023,medium,"Microsoft's net income in fiscal year 2023 was $72,361 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Microsoft's net income in fiscal year 2023?,MSFT,2023,medium,"In fiscal year 2023, Microsoft's net income was $72,361 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Microsoft's net income in fiscal year 2023?,MSFT,2023,medium,"Microsoft's net income in fiscal year 2023 was $72,361 million.",pageindex,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Amazon's total revenue in fiscal year 2024?,AMZN,2024,simple,"Amazon's total revenue in fiscal year 2024 was $637,959 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Amazon's total revenue in fiscal year 2024?,AMZN,2024,simple,"Amazon's total revenue in fiscal year 2024 was $637,959 million.",kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Amazon's total revenue in fiscal year 2024?,AMZN,2024,simple,"Amazon's total revenue in fiscal year 2024 was $637,959 million.",kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Amazon's net income in fiscal year 2024?,AMZN,2024,simple,"Amazon's net income in fiscal year 2024 was $59,248 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Amazon's net income in fiscal year 2024?,AMZN,2024,simple,"Amazon's net income in fiscal year 2024 was $59,248 million.",kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Amazon's net income in fiscal year 2024?,AMZN,2024,simple,"Amazon's net income in fiscal year 2024 was $59,248 million.",kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Amazon's gross profit in fiscal year 2024?,AMZN,2024,simple,"Amazon's gross profit in fiscal year 2024 was $311,671 million. This is calculated by subtracting the cost of sales ($326,288 million) from the total net sales ($637,959 million).",faiss_global,2,0.5,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 1, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Amazon's gross profit in fiscal year 2024?,AMZN,2024,simple,"Gross profit for Amazon in fiscal year 2024 is calculated by subtracting the cost of sales from total net sales.
+
+Total net sales in 2024: $637,959 million  
+Cost of sales in 2024: $326,288 million  
+
+Gross profit = Total net sales - Cost of sales  
+Gross profit = $637,959 million - $326,288 million = $311,671 million.",kg_faiss,2,0.5,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 1, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Amazon's gross profit in fiscal year 2024?,AMZN,2024,simple,"To calculate Amazon's gross profit in fiscal year 2024, subtract the cost of sales from the total net sales. 
+
+\[
+Gross\:Profit = Total\:Net\:Sales - Cost\:of\:Sales
+\]
+
+Using the provided data for 2024:
+
+- Total Net Sales: $637,959 million
+- Cost of Sales: $326,288 million
+
+\[
+Gross\:Profit = 637,959 - 326,288 = 311,671\:million
+\]
+
+Therefore, Amazon's gross profit in fiscal year 2024 was $311,671 million.",kg_faiss,2,0.0,1.0,"{'VERIFIED': 2, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was Amazon's operating income in fiscal year 2023?,AMZN,2023,medium,"Amazon's operating income in fiscal year 2023 was $36,852 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was Amazon's operating income in fiscal year 2023?,AMZN,2023,medium,"Amazon's operating income in fiscal year 2023 was $36,852 million.",kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was Amazon's operating income in fiscal year 2023?,AMZN,2023,medium,"Amazon's operating income in fiscal year 2023 was $36,852 million.",kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was NVIDIA's total revenue in fiscal year 2025?,NVDA,2025,simple,NVIDIA's total revenue in fiscal year 2025 was $130.5 billion.,faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was NVIDIA's total revenue in fiscal year 2025?,NVDA,2025,simple,NVIDIA's total revenue in fiscal year 2025 was $130.5 billion.,kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was NVIDIA's total revenue in fiscal year 2025?,NVDA,2025,simple,NVIDIA's total revenue in fiscal year 2025 was $130.5 billion.,kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was NVIDIA's net income in fiscal year 2025?,NVDA,2025,simple,"NVIDIA's net income in fiscal year 2025 was $72,880 million.",faiss_global,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was NVIDIA's net income in fiscal year 2025?,NVDA,2025,simple,"NVIDIA's net income in fiscal year 2025 was $72,880 million.",kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was NVIDIA's net income in fiscal year 2025?,NVDA,2025,simple,"$72,880 million.",kg_faiss,0,0.0,0.0,"{'VERIFIED': 0, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+Vanilla RAG,What was NVIDIA's gross profit in fiscal year 2024?,NVDA,2024,medium,"The gross profit for NVIDIA in fiscal year 2024 can be calculated by subtracting the total operating expenses from the total revenue. 
+
+Total revenue in 2024: $60,922 million  
+Total operating expenses in 2024: $32,972 million  
+
+Gross Profit = Total Revenue - Total Operating Expenses  
+Gross Profit = $60,922 million - $32,972 million  
+Gross Profit = $27,950 million  
+
+NVIDIA's gross profit in fiscal year 2024 was $27,950 million.",faiss_global,2,0.5,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 1, 'UNVERIFIABLE': 0}"
+KG+PageIndex RAG,What was NVIDIA's gross profit in fiscal year 2024?,NVDA,2024,medium,"The context does not directly provide NVIDIA's gross profit for fiscal year 2024. However, gross profit can typically be calculated as the difference between total revenue and total operating expenses. In the absence of direct figures for gross profit, you might consider looking further into the data for operation-related costs and total revenue to infer it from the context.",kg_faiss,0,0.0,0.0,"{'VERIFIED': 0, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
+ReasonKG,What was NVIDIA's gross profit in fiscal year 2024?,NVDA,2024,medium,"The gross profit for NVIDIA in fiscal year 2024 is not provided directly in the context. However, gross profit can be calculated by subtracting total operating expenses from total revenue.
+
+Gross profit for fiscal year 2024 = $44.30 billion - $32,972 million",kg_faiss,1,0.0,1.0,"{'VERIFIED': 1, 'HALLUCINATED': 0, 'UNVERIFIABLE': 0}"
